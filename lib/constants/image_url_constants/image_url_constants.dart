@@ -19,3 +19,19 @@ class ImageUrlConstants {
       '$imageUrl/table_graphics/yelllow_card.jpeg';
   static const String tableGraphicsShoes = '$imageUrl/table_graphics/shoes.png';
 }
+
+/* enum ImageConstants {
+  cupsBallon('ballon_cup');
+
+  final String value;
+
+  const ImageConstants(this.value);
+
+  String get toCupsJpeg => 'lib/assets/images/cups/$value.jpeg';
+
+  Image get toImage => Image.asset(
+        toCupsJpeg,
+        width: 40,
+      );
+}
+ */
